@@ -1,19 +1,27 @@
 {
-<<<<<<< HEAD
-  "name": "vite-react-typescript-starter",
+  "name": "createkonnect",
+  "version": "0.1.0",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
     "lucide-react": "^0.344.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.2",
+    "web-vitals": "^2.1.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
@@ -26,31 +34,10 @@
     "eslint-plugin-react-refresh": "^0.4.11",
     "globals": "^15.9.0",
     "postcss": "^8.4.35",
-    "react-router-dom": "^6.30.1",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.3.0",
     "vite": "^5.4.2"
-=======
-  "name": "createkonnect",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/dom": "^10.4.0",
-    "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.3.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "react-router-dom": "^7.6.2",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -69,6 +56,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
->>>>>>> e10c096f3295cd8c39a29d77eaed6777112d0e23
   }
 }
